@@ -4,8 +4,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Production builds
-frontend/dist/
+# Production builds (exclude dist for Vercel deployment)
+# frontend/dist/
 backend/uploads/
 
 # Environment variables
