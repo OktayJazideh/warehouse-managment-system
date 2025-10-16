@@ -1,0 +1,35 @@
+{
+  "name": "warehouse-management-system",
+  "version": "1.0.0",
+  "description": "Complete warehouse management system with Node.js backend and Vue.js frontend",
+  "main": "setup.js",
+  "scripts": {
+    "setup": "node setup.js",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "start:backend": "cd backend && npm start",
+    "build:frontend": "cd frontend && npm run build",
+    "db:setup": "cd backend && npm run setup",
+    "db:seed": "cd backend && npm run seed",
+    "vercel-build": "cd frontend && npm install && npm run build",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start"
+  },
+  "keywords": [
+    "warehouse",
+    "inventory",
+    "management",
+    "nodejs",
+    "vuejs",
+    "postgresql"
+  ],
+  "author": "WMS Development Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-repo/warehouse-management-system"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
